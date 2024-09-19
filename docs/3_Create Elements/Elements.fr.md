@@ -1,175 +1,192 @@
-Les composants suivants permettent de générer des éléments cadwork. Les éléments sont représentés comme des éléments verrouillés dans cadwork. Dès que les éléments sont "cuits", le verrouillage est levé. La cuisson s'effectue via le menu contextuel.
+Les composants suivants permettent de générer des éléments cadwork. Les éléments
+sont représentés comme des éléments verrouillés dans cadwork. Dès que les
+éléments sont "cuits", le verrouillage est levé. La cuisson s'effectue via le
+menu contextuel.
 
-![Backup Text](../img/context.jpg "context menü"){: style="width:300px"}
+![context](../img/context.jpg "context menü"){style="width:300px"}
 
-**Bake all to cadwork** libère tous les éléments créés avec Grasshopper (le verrouillage des éléments est levé).
+**Bake all to cadwork** libère tous les éléments créés avec Grasshopper (le
+verrouillage des éléments est levé).
 
-## Beam
+## Barre
 
-Le composant **Beam** génère une barre dans cadwork.
-En plus de l'entrée géométrique obligatoire, les possibilités **Axis, CwAttr, StdAttr** sont disponibles en option.
+Le composant **Cw-Beam** génère une barre dans cadwork. En plus de l'entrée
+géométrique obligatoire, les possibilités **Axis, CwAttr, StdAttr** sont
+disponibles en option.
 
-![Backup Text](../img/beam.png "Beam"){: style="width:600px"}
+![Barre](../img/beam.png "Barre"){style="width:300px"}
 
-| Input          | comment                              |
-| -------------- | :----------------------------------- |
-| Geom           | Brep closed                          |
-| Axis           | Système d'axes [optional]            |
-| CwAttr         | Userattributes [optional]            |
-| StdAttr        | Standardattributes [optional]        |
-| Endtype(Start) | Type extrémité départ axe [optional] |
-| Endtype(End)   | Type extrémité final axe [optional]  |
-| BakeCW         | bake in cadwork [optional]           |
-| ElementID      | Element ID [optional]                |
+Input            | Description
+:----------------|:------------------------------------
+`Geom`           | Brep closed
+`Axis`           | Système d'axes [optional]
+`CwAttr`         | Userattributes [optional]
+`StdAttr`        | Standardattributes [optional]
+`Endtype(Start)` | Type extrémité départ axe [optional]
+`Endtype(End)`   | Type extrémité final axe [optional]
+`BakeCW`         | bake in cadwork [optional]
+`ElementID`      | Element ID [optional]
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | L'élément est généré dans cadwork |
+Output | Description
+:------|:---------------------------------
+`None` | L'élément est généré dans cadwork
 
-Avec un clic droit sur l'icône, on peut sélectionner dans le menu contextuel l'option **Cadwork Preview, Bake to Cadwork, Bake all to Cadwork**. Cela permet de lire les axes des composants.
-![Backup Text](../img/beam_bake.png "Beam"){: style="width:600px"}
+Avec un clic droit sur l'icône, on peut sélectionner dans le menu contextuel
+l'option **Cadwork Preview, Bake to Cadwork, Bake all to Cadwork**. Cela permet
+de lire les axes des composants.
 
-## Panel
+![Création d'une barre](../img/beam_bake.png "Création d'une barre"){style="width:410px"}
 
-Le composant **Panel** génère un panneau dans cadwork.
-![Backup Text](../img/panel.png "Panel"){: style="width:600px"}
+## Panneau
 
-| Input          | comment                              |
-| -------------- | :----------------------------------- |
-| Geom           | Brep closed                          |
-| Axis           | Système d'axes [optional]            |
-| CwAttr         | Userattributes [optional]            |
-| StdAttr        | Standardattributes [optional]        |
-| Endtype(Start) | Type extrémité départ axe [optional] |
-| Endtype(End)   | Type extrémité final axe [optional]  |
-| BakeCW         | bake in cadwork [optional]           |
-| ElementID      | Element ID [optional]                |
+Le composant **Cw-Panel** génère un panneau dans cadwork.
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | L'élément est généré dans cadwork |
+![Panneau](../img/panel.png "Panneau"){style="width:210px"}
 
-## Auxiliary Element
+Input            | Description
+:----------------|:------------------------------------
+`Geom`           | Brep closed
+`Axis`           | Système d'axes [optional]
+`CwAttr`         | Userattributes [optional]
+`StdAttr`        | Standardattributes [optional]
+`Endtype(Start)` | Type extrémité départ axe [optional]
+`Endtype(End)`   | Type extrémité final axe [optional]
+`BakeCW`         | bake in cadwork [optional]
+`ElementID`      | Element ID [optional]
 
-Le composant **AuxVol** génère un volume auxiliaire dans cadwork.
-![Backup Text](../img/auxi.png "Panel"){: style="width:600px"}
+Output | Description
+:------|:---------------------------------
+`None` | L'élément est généré dans cadwork
 
-| Input     | comment                       |
-| --------- | :---------------------------- |
-| Geom      | Brep closed                   |
-| CwAttr    | Userattributes [optional]     |
-| StdAttr   | Standardattributes [optional] |
-| BakeCW    | bake in cadwork [optional]    |
-| ElementID | Element ID [optional]         |
+## Volume auxiliaire
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | L'élément est généré dans cadwork |
+Le composant **Cw-AuxVol** génère un volume auxiliaire dans cadwork.
 
-## Drilling
+![Volume auxiliaire](../img/auxi.png "Volume auxiliaire"){style="width:200px"}
 
-Le composant **Drilling** génère un boulon dans cadwork. Le composant nécessite comme entrée un **point 1, point 2, diamètre**. La **surépaisseur de perçage ainsi que les attributs** peuvent être ajoutés en option.
+Input       | Description
+:-----------|:-----------------------------
+`Geom`      | Brep closed
+`CwAttr`    | Userattributes [optional]
+`StdAttr`   | Standardattributes [optional]
+`BakeCW`    | bake in cadwork [optional]
+`ElementID` | Element ID [optional]
 
-![Backup Text](../img/drill.png "Drilling"){: style="width:600px"}
+Output | Description
+:------|:---------------------------------
+`None` | L'élément est généré dans cadwork
 
-![Backup Text](../img/drilling.png "Drilling"){: style="width:600px"}
+## Axe de perçage
 
-| Input      | comment                    |
-| ---------- | :------------------------- |
-| Point_1    | Point de départ            |
-| Point_2    | Point final                |
-| Diameter   | Diamètre [mm]              |
-| Supplement | Apport Alésage [mm]        |
-| CwAttr     | Standardattributes         |
-| StdAttr    | Standardattributes         |
-| BakeCW     | bake in cadwork [optional] |
+Le composant **Cw-Drilling** génère un axe de perçage dans cadwork. Le composant
+nécessite comme entrée un **point 1, point 2, diamètre**. La **surépaisseur de
+perçage ainsi que les attributs** peuvent être ajoutés en option.
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | L'élément est généré dans cadwork |
+![Axe de perçage](../img/drill.png "Axe de perçage"){style="width:400px"}
 
-## Connector Axis
+![Axe de perçage](../img/drilling.png "Axe de perçage"){style="width:700px"}
 
-Le composant **Connector Axis** crée un axe de connecteurs standard dans cadwork. Le composant nécessite comme entrée minimale un **nom d'axe de liaison existant, point 1, point 2**.
+Input        | Description
+:------------|:--------------------------
+`Point_1`    | Point de départ
+`Point_2`    | Point final
+`Diameter`   | Diamètre [mm]
+`Supplement` | Apport Alésage [mm]
+`CwAttr`     | Standardattributes
+`StdAttr`    | Standardattributes
+`BakeCW`     | bake in cadwork [optional]
 
-![Backup Text](../img/connector_axis.png "Drilling"){: style="width:600px"}
+Output | Description
+:------|:---------------------------------
+`None` | L'élément est généré dans cadwork
 
-| Input          | comment                      |
-| -------------- | :--------------------------- |
-| Connector Name | Standard Connector Axis Name |
-| Point_1        | Start Point                  |
-| Point_2        | End Point                    |
-| CwAttr         | User Attributes              |
-| StdAttr        | Standard attributes          |
-| BakeCW         | bake in cadwork [optional]   |
+## Axe d'assemblage
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | L'élément est généré dans cadwork |
+Le composant **Cw-Connector** crée un axe d'assemblage standard dans
+cadwork. Le composant nécessite comme entrée minimale un **nom d'axe de liaison
+existant, point 1, point 2**.
+
+![Axe d'assemblage](../img/connector_axis.png "Axe d'assemblage"){style="width:360px"}
+
+Input            | Description
+:----------------|:----------------------------
+`Connector Name` | Standard Connector Axis Name
+`Point_1`        | Start Point
+`Point_2`        | End Point
+`CwAttr`         | User Attributes
+`StdAttr`        | Standard attributes
+`BakeCW`         | bake in cadwork [optional]
+
+Output | Description
+:------|:---------------------------------
+`None` | L'élément est généré dans cadwork
 
 ## Axes des composants
 
 Les axes locaux des composants sont définis par le composant **Axis**.
 Un vecteur X ainsi qu'un vecteur Z sont indiqués.
 
-![Backup Text](../img/axis1.png "Axis"){: style="width:600px"}
+![Axe](../img/axis1.png "Axe"){style="width:700px"}
 
-| Input        | comment   |
-| ------------ | :-------- |
-| VectorXLocal | {x, y, z} |
-| VectorYLocal | {x, y, z} |
+Input          | Description
+:--------------|:-----------
+`VectorXLocal` | {x, y, z}
+`VectorYLocal` | {x, y, z}
 
-| Output     | comment                       |
-| ---------- | :---------------------------- |
-| OutputAxis | Restitution du niveau cadwork |
+Output       | Description
+:------------|:-----------------------------
+`OutputAxis` | Restitution du niveau cadwork
 
-## Create Surface
+## Création d'une surface
 
-Le composant **AuxVol** génère un volume auxiliaire dans cadwork.
-![Backup Text](../img/createSurface.jpg "Surface"){: style="width:600px"}
+Le composant **Cw-Surface** génère une surface dans cadwork.
 
-| Input     | comment                       |
-| --------- | :---------------------------- |
-| Geom      | Surface                       |
-| CwAttr    | Userattributes [optional]     |
-| StdAttr   | Standardattributes [optional] |
-| BakeCW    | bake in cadwork [optional]    |
-| ElementID | Element ID [optional]         |
+![Création d'une surface](../img/createSurface.jpg "Surface"){style="width:160px"}
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | L'élément est généré dans cadwork |
+Input       | Description
+:-----------|:-----------------------------
+`Geom`      | Surface
+`CwAttr`    | Userattributes [optional]
+`StdAttr`   | Standardattributes [optional]
+`BakeCW`    | bake in cadwork [optional]
+`ElementID` | Element ID [optional]
 
-## Create Line
+Output | Description
+:------|:---------------------------------
+`None` | L'élément est généré dans cadwork
 
-Le composant **AuxVol** génère un volume auxiliaire dans cadwork.
-![Backup Text](../img/createLine.jpg "Surface"){: style="width:600px"}
+## Création d'une ligne
 
-| Input     | comment                       |
-| --------- | :---------------------------- |
-| Geom      | Line                          |
-| CwAttr    | Userattributes [optional]     |
-| StdAttr   | Standardattributes [optional] |
-| BakeCW    | bake in cadwork [optional]    |
-| ElementID | Element ID [optional]         |
+Le composant **Cw-Line** génère une ligne dans cadwork.
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | L'élément est généré dans cadwork |
+![Création d'une ligne](../img/createLine.jpg "Création d'une ligne"){style="width:160px"}
 
-## Create Node
+Input       | Description
+:-----------|:-----------------------------
+`Geom`      | Line
+`CwAttr`    | Userattributes [optional]
+`StdAttr`   | Standardattributes [optional]
+`BakeCW`    | bake in cadwork [optional]
+`ElementID` | Element ID [optional]
 
-Le composant **AuxVol** génère un volume auxiliaire dans cadwork.
-![Backup Text](../img/createNode.jpg "Surface"){: style="width:600px"}
+Output | Description
+:------|:---------------------------------
+`None` | L'élément est généré dans cadwork
 
-| Input     | comment                       |
-| --------- | :---------------------------- |
-| Geom      | Point                         |
-| CwAttr    | Userattributes [optional]     |
-| StdAttr   | Standardattributes [optional] |
-| BakeCW    | bake in cadwork [optional]    |
-| ElementID | Element ID [optional]         |
+## Création d'un noeud
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | L'élément est généré dans cadwork |
+Le composant **Cw-Node** génère un noeud dans cadwork.
+
+![Création d'un noeud](../img/createNode.jpg "Création d'un noeud"){style="width:160px"}
+
+Input       | Description
+:-----------|:-----------------------------
+`Geom`      | Point
+`CwAttr`    | Userattributes [optional]
+`StdAttr`   | Standardattributes [optional]
+`BakeCW`    | bake in cadwork [optional]
+`ElementID` | Element ID [optional]
+
+Output | Description
+:------|:---------------------------------
+`None` | L'élément est généré dans cadwork
