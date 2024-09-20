@@ -30,8 +30,7 @@ visuelle "Plug-and-Play"-Stil von Grasshopper gibt Designern die Möglichkeit,
 kreative Problemlösungen mit neuartigen Regelsystemen durch die Verwendung einer
 fließenden grafischen Oberfläche zu kombinieren.
 
-![Grasshoper component parts](img/process.png
-){style="width:500px"}
+![Grasshoper component parts](img/process.png){style="width:500px"}
 
 <span class="bullet-number">1</span> Die drei Eingangsparameter der Komponente
 Circle CNR.

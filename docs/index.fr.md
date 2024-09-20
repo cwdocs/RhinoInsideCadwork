@@ -30,8 +30,7 @@ algorithmes qui automatisent ensuite des tâches dans Rhino3D. Le style visuel
 des solutions créatives aux problèmes avec des systèmes de règles inédits en
 utilisant une interface graphique fluide.
 
-![Grasshoper component parts](img/process.png
-){style="width:500px"}
+![Grasshoper component parts](img/process.png){style="width:500px"}
 
 <span class="bullet-number">1</span> Les trois paramètres d'entrée du composant
 Circle CNR.

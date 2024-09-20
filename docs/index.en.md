@@ -27,8 +27,7 @@ tasks in Rhino3D. Grasshopper's visual "plug-and-play" style gives designers the
 ability to combine creative problem solving with novel control systems through
 the use of a fluid graphical interface.
 
-![Grasshoper component parts](img/process.png
-){style="width:500px"}
+![Grasshoper component parts](img/process.png){style="width:500px"}
 
 <span class="bullet-number">1</span> The three input parameters of the Circle
 CNR component.
