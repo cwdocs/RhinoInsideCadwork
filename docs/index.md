@@ -1,6 +1,6 @@
-# Willkommen zu Rhino.Inside cadwork
+# Willkommen zu Rhino.Inside CADWORK
 
-Rhino.Inside cadwork ist ein Tool, welches die Einbettung von Rhino 7 in cadwork
+Rhino.Inside CADWORK ist ein Tool, welches die Einbettung von Rhino 7 in cadwork
 3D ermöglicht. Nutzen Sie die Vorteile des Flächenmodellieres in ihrer cadwork
 3D Umgebung.
 
@@ -8,8 +8,7 @@ Rhino.Inside cadwork ist ein Tool, welches die Einbettung von Rhino 7 in cadwork
 
 ## Add-on Download
 
-[food4Rhino - Rhino.Inside
-cadwork](https://www.food4rhino.com/en/app/rhinoinside-cadwork-3d?lang=de)
+[food4Rhino - Rhino.Inside cadwork](https://www.food4rhino.com/en/app/rhinoinside-cadwork-3d?lang=de)
 
 Food4Rhino ist McNeels Community-Dienst für Plug-ins. Anwender finden hier die
 neuesten Rhino-Plug-ins, Grasshopper-Add-ons, Scripts und vieles mehr.

@@ -8,8 +8,7 @@ Profitez des avantages du modeleur de surface dans votre environnement cadwork
 
 ## Add-on Download
 
-[food4Rhino - Rhino.Inside
-cadwork](https://www.food4rhino.com/en/app/rhinoinside-cadwork-3d?lang=fr)
+[food4Rhino - Rhino.Inside cadwork](https://www.food4rhino.com/en/app/rhinoinside-cadwork-3d?lang=fr)
 
 Food4Rhino est le service communautaire de McNeel pour les plug-ins. Les
 utilisateurs y trouvent les derniers plug-ins de Rhino, des modules
@@ -68,7 +67,7 @@ Les composants sont divisés en quatre sections&nbsp;:
   des attributs.
 
 - Dans la section **Select** vous trouverez tous les composants pour la
-  sélection d'éléments cadwork. 
+  sélection d'éléments cadwork.
 
 - Dans la section **Create Elements**, on trouve les composants pour la création
   d'éléments cadwork.

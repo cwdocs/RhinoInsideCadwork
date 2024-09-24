@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "crossnote": "^0.9.10",
+    "glob": "^11.0.0"
+  }
+}

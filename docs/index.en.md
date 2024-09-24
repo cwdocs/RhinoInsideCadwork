@@ -7,8 +7,7 @@ Take advantage of the surface modeler in your cadwork 3D environment.
 
 ## Add-on Download
 
-[food4Rhino - Rhino.Inside
-cadwork](https://www.food4rhino.com/en/app/rhinoinside-cadwork-3d?lang=en)
+[food4Rhino - Rhino.Inside cadwork](https://www.food4rhino.com/en/app/rhinoinside-cadwork-3d?lang=en)
 
 Food4Rhino is McNeel's community service for plug-ins. Users can find the latest
 Rhino plug-ins, Grasshopper add-ons, scripts and much more. Moreover, they can

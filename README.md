@@ -14,7 +14,6 @@ https://www.food4rhino.com/en/app/rhinoinside-cadwork-3d
 
 Contact your local cadwork office (from release version 29)
 
-
 ## Contributing
 
 Pull requests for GH examples are welcome. For major changes in the documentation, please open an issue first to discuss what you would like to change.
@@ -23,5 +22,4 @@ Pull requests for GH examples are welcome. For major changes in the documentatio
 
 [![Documentation Status](https://readthedocs.org/projects/rhinoinsidecadwork/badge/?version=latest)](https://rhinoinsidecadwork.readthedocs.io/en/latest/?badge=latest)
 
-![My gif](https://github.com/Brunner246/RhinoInsideCadwork/blob/main/docs/img/beams_curve.gif)
-
+![Beams curve](docs/img/beams_curve.gif "Beams curve")
