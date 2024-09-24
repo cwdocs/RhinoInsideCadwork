@@ -1,66 +1,67 @@
-Mit den Architektur Komponenten lassen sich in cadwork Architekturelemente erstellen.
-Die Komponenten benötigen als Input eine Geometrie. Die Attribute können optional ergänzt werden.
+Mit den Architektur Komponenten lassen sich in cadwork Architekturelemente
+erstellen. Die Komponenten benötigen als Input eine Geometrie. Die Attribute
+können optional ergänzt werden.
 
-## Roof
+## Dach
 
-![Backup Text](../img/roof.png "Beam"){: style="width:600px"}
+![Dach](../img/roof.png "Dach"){style="width:160px"}
 
-| Input     | comment                      |
-| --------- | :--------------------------- |
-| Geom      | Brep closed                  |
-| CwAttr    | Userattribute [optional]     |
-| StdAttr   | Standardattribute [optional] |
-| BakeCW    | Backen in cadwork [optional] |
-| ElementID | Element ID [optional]        |
+Input       | Beschreibung
+:-----------|:----------------------------
+`Geom`      | Brep closed
+`CwAttr`    | Userattribute [optional]
+`StdAttr`   | Standardattribute [optional]
+`BakeCW`    | Backen in cadwork [optional]
+`ElementID` | Element ID [optional]
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | Element wird in cadwork generiert |
+Output | Beschreibung
+:------|:---------------------------------
+`None` | Element wird in cadwork generiert
 
-## Wall
+## Wand
 
-![Backup Text](../img/wall.png "Beam"){: style="width:600px"}
+![Wand](../img/wall.png "Wand"){style="width:160px"}
 
-| Input     | comment                      |
-| --------- | :--------------------------- |
-| Geom      | Brep closed                  |
-| CwAttr    | Userattribute [optional]     |
-| StdAttr   | Standardattribute [optional] |
-| BakeCW    | Backen in cadwork [optional] |
-| ElementID | Element ID [optional]        |
+Input       | Beschreibung
+:-----------|:----------------------------
+`Geom`      | Brep closed
+`CwAttr`    | Userattribute [optional]
+`StdAttr`   | Standardattribute [optional]
+`BakeCW`    | Backen in cadwork [optional]
+`ElementID` | Element ID [optional]
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | Element wird in cadwork generiert |
+Output | Beschreibung
+:------|:---------------------------------
+`None` | Element wird in cadwork generiert
 
-## Floor/Slab
+## Decke
 
-![Backup Text](../img/floor.png "Beam"){: style="width:600px"}
+![Decke](../img/floor.png "Decke"){style="width:160px"}
 
-| Input     | comment                      |
-| --------- | :--------------------------- |
-| Geom      | Brep closed                  |
-| CwAttr    | Userattribute [optional]     |
-| StdAttr   | Standardattribute [optional] |
-| BakeCW    | Backen in cadwork [optional] |
-| ElementID | Element ID [optional]        |
+Input       | Beschreibung
+:-----------|:----------------------------
+`Geom`      | Brep closed
+`CwAttr`    | Userattribute [optional]
+`StdAttr`   | Standardattribute [optional]
+`BakeCW`    | Backen in cadwork [optional]
+`ElementID` | Element ID [optional]
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | Element wird in cadwork generiert |
+Output | Beschreibung
+:------|:---------------------------------
+`None` | Element wird in cadwork generiert
 
-## Room
+## Raum
 
-![Backup Text](../img/room.png "Beam"){: style="width:600px"}
+![Raum](../img/room.png "Raum"){style="width:160px"}
 
-| Input     | comment                      |
-| --------- | :--------------------------- |
-| Geom      | Brep closed                  |
-| CwAttr    | Userattribute [optional]     |
-| StdAttr   | Standardattribute [optional] |
-| BakeCW    | Backen in cadwork [optional] |
-| ElementID | Element ID [optional]        |
+Input       | Beschreibung
+:-----------|:----------------------------
+`Geom`      | Brep closed
+`CwAttr`    | Userattribute [optional]
+`StdAttr`   | Standardattribute [optional]
+`BakeCW`    | Backen in cadwork [optional]
+`ElementID` | Element ID [optional]
 
-| Output | comment                           |
-| ------ | :-------------------------------- |
-| None   | Element wird in cadwork generiert |
+Output | Beschreibung
+:------|:---------------------------------
+`None` | Element wird in cadwork generiert

@@ -1,79 +1,80 @@
 ## Select Element(s)
 
-A right click on the icon calls the context menu.
-With the **Select Elements** function, cadwork Brep elements (bar, plate, auxiliary volume, bolt) aswell 3d/3dc files can be selected and linked to Grasshopper.
+A right click on the icon calls the context menu. With the **Select Elements**
+function, cadwork Brep elements (bar, plate, auxiliary volume, bolt) aswell
+3d/3dc files can be selected and linked to Grasshopper.
 
-![Backup Text](../img/select_brep.png "BREP"){: style="width:600px"}
+![Select BREP](../img/select_brep.png "Select BREP"){style="width:360px"}
 
-| Input | comment                              |
-| ----- | :----------------------------------- |
-| None  | Select/add elements via context menu |
+Input  | Description
+:------|:------------------------------------
+`None` | Select/add elements via context menu
 
-| Output         | comment            |
-| -------------- | :----------------- |
-| Geometry       | Geometry (list)    |
-| XSection       | Construction plane |
-| X-Local-Axis   | X-axis             |
-| Z-Local-Axis   | Z-axis             |
-| P1             | axis point 1       |
-| P2             | axis point 2       |
-| P3             | axis point 3       |
-| Cw-Attributes  | User Attribute     |
-| Std-Attributes | Standard Attribute |
-| Element-ID     | Element ID         |
+Output           | Description
+:----------------|:------------------
+`Geometry`       | Geometry (list)
+`XSection`       | Construction plane
+`X-Local-Axis`   | X-axis
+`Z-Local-Axis`   | Z-axis
+`P1`             | axis point 1
+`P2`             | axis point 2
+`P3`             | axis point 3
+`Cw-Attributes`  | User Attribute
+`Std-Attributes` | Standard Attribute
+`Element-ID`     | Element ID
 
-![Backup Text](../img/brep.jpg "BREP")
+![BREP](../img/brep.jpg "BREP")
 
 ## Select Surface(s)
 
-Right-clicking on the icon calls up the context menu.
-With the **Select Elements** function, surfaces can be selected and linked to Grasshopper.
+Right-clicking on the icon calls up the context menu. With the **Select
+Elements** function, surfaces can be selected and linked to Grasshopper.
 
-![Backup Text](../img/selectSurface.jpg "Surface")
+![Select surface](../img/selectSurface.jpg "Select surface"){style="width:200px"}
 
-| Input | comment                              |
-| ----- | :----------------------------------- |
-| None  | Select/add elements via context menu |
+Input  | Description
+:------|:------------------------------------
+`None` | Select/add elements via context menu
 
-| Output         | comment            |
-| -------------- | :----------------- |
-| Geometry       | Geometry (list)    |
-| Cw-Attributes  | User Attribute     |
-| Std-Attributes | Standard Attribute |
-| Element-ID     | Element ID         |
+Output           | Description
+:----------------|:------------------
+`Geometry`       | Geometry (list)
+`Cw-Attributes`  | User Attribute
+`Std-Attributes` | Standard Attribute
+`Element-ID`     | Element ID
 
 ## Select Line(s)
 
-Right-clicking on the icon calls up the context menu.
-With the **Select Elements** function, lines can be selected and linked to Grasshopper.
+Right-clicking on the icon calls up the context menu. With the **Select
+Elements** function, lines can be selected and linked to Grasshopper.
 
-![Backup Text](../img/selectLine.jpg "Line")
+![Select line](../img/selectLine.jpg "Select line"){style="width:200px"}
 
-| Input | comment                              |
-| ----- | :----------------------------------- |
-| None  | Select/add elements via context menu |
+Input  | Description
+:------|:------------------------------------
+`None` | Select/add elements via context menu
 
-| Output         | comment            |
-| -------------- | :----------------- |
-| Geometry       | Geometry (list)    |
-| Cw-Attributes  | User Attribute     |
-| Std-Attributes | Standard Attribute |
-| Element-ID     | Element ID         |
+Output           | Description
+:----------------|:------------------
+`Geometry`       | Geometry (list)
+`Cw-Attributes`  | User Attribute
+`Std-Attributes` | Standard Attribute
+`Element-ID`     | Element ID
 
 ## Select Node(s)
 
-Right-clicking on the icon calls up the context menu.
-With the **Select Elements** function, nodes can be selected and linked to Grasshopper.
+Right-clicking on the icon calls up the context menu. With the **Select
+Elements** function, nodes can be selected and linked to Grasshopper.
 
-![Backup Text](../img/selectNode.jpg "Node")
+![Select node](../img/selectNode.png "Select node"){style="width:200px"}
 
-| Input | comment                              |
-| ----- | :----------------------------------- |
-| None  | Select/add elements via context menu |
+Input  | Description
+:------|:------------------------------------
+`None` | Select/add elements via context menu
 
-| Output         | comment            |
-| -------------- | :----------------- |
-| Geometry       | Geometry (list)    |
-| Cw-Attributes  | User Attribute     |
-| Std-Attributes | Standard Attribute |
-| Element-ID     | Element ID         |
+Output           | Description
+:----------------|:------------------
+`Geometry`       | Geometry (list)
+`Cw-Attributes`  | User Attribute
+`Std-Attributes` | Standard Attribute
+`Element-ID`     | Element ID
