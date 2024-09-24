@@ -1,6 +1,6 @@
-# Willkommen zu Rhino.Inside CADWORK
+# Willkommen zu Rhino.Inside cadwork
 
-Rhino.Inside CADWORK ist ein Tool, welches die Einbettung von Rhino 7 in cadwork
+Rhino.Inside cadwork ist ein Tool, welches die Einbettung von Rhino 7 in cadwork
 3D ermöglicht. Nutzen Sie die Vorteile des Flächenmodellieres in ihrer cadwork
 3D Umgebung.
 
